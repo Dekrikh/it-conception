@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.modal-dialog {
+  --cui-modal-width : 736px!important;
+}
+.modal-content{
+  padding : 25px !important;
+}
+.btn-primary.reactive,
+.btn-secondary.return {
+  width: auto;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.txt1{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 2em;
+  justify-content: center;
+}
+
+.btn-primary.reactive {
+  background-color: #22A18A;
+  border-color: #ffffff;
+  padding:rem 5rem
+}
+
+.btn-primary.reactive:hover {
+  background-color: #ffffff;
+  transition: 0.7s;
+  color: #22A18A;
+  border-color: #22A18A;
+}
+
+
+.btn-primary.reactive:hover + .btn-secondary.return {
+  background-color: #22A18A;
+  color: white;
+}
+
+
+.btn-secondary.return {
+  background-color: #ffffff;
+  border-color: #22A18A;
+  color:#22A18A;
+  
+} 
+
+.btn-secondary.return:hover {
+    background-color:#ffffff ;
+    transition : 0.7s ;
+    color:#22A18A
+} 
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
