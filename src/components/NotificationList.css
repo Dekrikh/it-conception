@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    color: #333; 
+  }
+  .notification-read {
+    background-color: #f0f0f0; 
+    color: #666; 
+  }
+  .unread-notification-badge {
+    background-color: rgb(241, 89, 89);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .custom-close-button {
+    background-color: #22A18A;
+    color: white;
+  }
+  
+  .custom-close-button:hover {
+    background-color:#ffffff ;
+    transition : 0.7s ;
+    color:#22A18A;
+    border-color: #22A18A;
+  }
